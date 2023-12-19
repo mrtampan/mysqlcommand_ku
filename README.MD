@@ -1,6 +1,15 @@
+
 ## Delete Foreignkey
 
 ```bash
-ALTER TABLE `users`
-	DROP INDEX `users_customer_id_foreign`;
+ALTER TABLE `table_name`
+	DROP FOREIGN KEY `id_name_fk`;
+
+```
+
+## Delete indexkey
+
+```bash
+ALTER TABLE `table_name` 
+	DROP INDEX  `id_name_fk`;
 ```
