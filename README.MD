@@ -1,5 +1,8 @@
 
-## Delete Foreignkey
+## How to Delete Foreignkey
+solving error "cannot drop foreign key contraint".
+
+### Delete Foreignkey
 
 ```bash
 ALTER TABLE `table_name`
@@ -7,7 +10,7 @@ ALTER TABLE `table_name`
 
 ```
 
-## Delete indexkey
+### Delete indexkey
 
 ```bash
 ALTER TABLE `table_name` 
