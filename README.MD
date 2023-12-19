@@ -1,7 +1,6 @@
 ## Delete Foreignkey
 
-``php
+```bash
 ALTER TABLE `users`
 	DROP INDEX `users_customer_id_foreign`;
-
-``
+```
